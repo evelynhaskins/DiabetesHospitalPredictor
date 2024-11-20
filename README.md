@@ -56,9 +56,3 @@ A **Support Vector Machine (SVM)** model was trained on the cleaned and selected
 #### **Visualization:**
 A **3D scatter plot** was created to visualize the relationship between the top 3 features (`num_lab_procedures`, `num_medications`, `time_in_hospital`) and the readmission status. The plot helped in understanding how the different values of the features align with the target variable, providing insight into the factors that might influence readmission risk.
 
----
-
-#### **Conclusion:**
-This project successfully identifies the most important features contributing to hospital readmission prediction. The use of a Random Forest model helped to evaluate the feature importance, and the SVM model provided a framework to classify and predict readmission risk based on selected features. The 3D scatter plot visualization offered a clear understanding of how the chosen features relate to readmission.
-
-With further optimization and validation, this model can be applied to predict readmission risk in real-world healthcare settings, allowing providers to identify at-risk patients early and take preventive actions.
